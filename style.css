@@ -1,0 +1,116 @@
+/*23531, 116466, D9B08C, FFCB9A, D1E8E2*/
+
+body{
+    font-family: "Palatino";
+}
+h1{
+    position: relative;
+    font-size: 40px;
+    float: right;
+    text-align: center;
+    padding: 20px;
+    padding-right: 75px;
+}
+#header{
+    position: absolute;
+    left: 25px;
+    top: 22px;
+    width: 40%;
+    height: 130px;
+    background-color: #D1E8E2;
+    padding: 10px;
+    border: 3px solid black;
+}
+#logo{
+    position: relative;
+    left: 10px;
+    top: 6px;
+    float: left;
+}
+.menu-bar{
+    background-color: #FFCB9A;
+    overflow: hidden;
+    position: relative;
+    top: 200px;
+    left: 22px;
+    width: 97.1%;
+}
+.menu-bar a{
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    padding: 14px 79px;
+    font-size: 25px;
+    color: #2C3531;
+    border: 3px solid white;
+    font-weight: bolder;
+}
+a.visited, a.hover, a.focus, a.active {
+    text-decoration: none;
+}
+a.active{
+    background-color: #2C3531;
+    color: #FFCB9A;
+}
+.button{
+    background-color: #116466;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    float: right;
+
+}
+#apply{
+    position: fixed;
+    right: 150px;
+    top: 40px;
+}
+#login{
+    position: fixed;
+    right: 30px;
+    top: 40px;
+}
+#description{
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+    padding: 22px;
+    font-style: italic;
+    left: 3px;
+
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+#image{
+    position: relative;
+    float: left;
+    width: 35%;
+    border: 3px solid black;
+    overflow: hidden;
+}
+#text{
+    position: relative;
+    float: right;
+    padding: 20px;
+}
+#fancy-name{
+    font-size: 35px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
