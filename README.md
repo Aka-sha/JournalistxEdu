@@ -1,5 +1,4 @@
 
 ## JournalistxEdu
-and the framework for continued development.
-
-Website for the service that connects journalists to students.
+and the framework by which one can continue its development.
+Website service that connects journalists to students.
