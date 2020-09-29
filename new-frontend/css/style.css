@@ -1,0 +1,261 @@
+/*2C3531, 116466, D9B08C, FFCB9A, D1E8E2*/
+
+@keyframes shiftSide{
+    0%{
+        margin-left: 170px;
+    }
+    50%{
+        margin-left: 150px;
+    }
+    100%{
+        margin-left: 170px;
+    }
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+#content-wrap {
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  overflow-y: hidden;
+}
+#logo{
+    float: left;
+}
+#header{
+    padding: 20px;
+}
+.btn{
+    font-weight: medium;
+    background-color: #F9BD2A;
+    color: #2C3531;
+    border-radius: 5px;
+    border: none;
+    width: 170px;
+    margin: 5px;
+    padding: 12px;
+    font-size: 20px;
+}
+.btn:hover{
+    opacity: .8;
+}
+.button-1{
+    float:right;
+}
+.btn:active, .btn:focus {
+    outline-color: #D1E8E2;
+    outline-width: thick;
+}
+#main-content{
+    position: relative;
+    clear: both;
+    float:left;
+    margin-left: 170px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    animation-name: shiftSide;
+    animation-duration: 3s;
+    width: 40%;
+}
+#main-graphic{
+    float: right;
+    padding-top: 120px;
+    padding-right: 100px;
+}
+.button-2{
+}
+#newspaper{
+    float: right;
+    padding: 100px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+#banner{
+    clear: both;
+    background-color: #D1E8E2;
+    height: 420px;
+    display: inline-flex;
+    width: 100vw;
+}
+.card{
+    background-color: #FFCB9A;
+    height: 280px;
+    width: 15%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-top: 70px;
+    margin-bottom:100px;
+    text-align: center;
+    border: 3px solid #116466;
+    border-radius: 5px;
+}
+.tagline{
+    margin: 20px;
+    margin-bottom: 35px;
+}
+.button-3{
+    height: 50px;
+    align: center;
+    margin: 20px;
+    position: relative;
+    top: 15px;
+    background-color: #116466;
+    color: white;
+}
+#blog{
+    position: relative;
+    top: 110px;
+    background-color: #FFCB9A;
+    height: 400px;
+    margin-bottom: 100px;
+    width: 100vw;
+    padding: 20px;
+    display: inline-flex;
+}
+#blog-mini{
+    text-align: center;
+    background-color: #D1E8E2;
+    width: 300px;
+    padding: 20px;
+    height: 350px;
+    border: 5px double #116466;
+    border-radius: 5px;
+}
+#blog-text{
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#books{
+    position: relative;
+    top: 20px;
+}
+.button-4{
+    position: relative;
+    top: 8px;
+    margin: 50px;
+    background-color: #116466;
+    color: white;
+}
+#blog-preview{
+    position: relative;
+    left: 40px;
+    background-color: white;
+    width: 945px;
+    height: 350px;
+    padding: 20px;
+    border: 5px double #116466;
+    border-radius: 5px;
+}
+#teacher-img{
+    float: left;
+    position: relative;
+    top: 30px;
+    padding: 20px;
+    margin-right: 15px;
+}
+#teacher-article{
+    position: relative;
+    top: 30px;
+    padding-left: 40px;
+}
+#teacher-text{
+    font-weight: normal;
+    padding-right: 40px;
+}
+.button-blog{
+    position: relative;
+    top: 8px;
+}
+#footer {
+    position: absolute;
+    left: 39%;
+    bottom: 0;
+    text-align: center;
+    align-items: center;
+}
+.fa {
+  padding: 3px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #116466;
+}
+.fa:hover {
+  opacity: 0.8;
+}
+#page-content{
+    font-size: 40px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.d-button{
+    background-color: white;
+    font-family: "Roboto" sans-serif;
+    color: #116466;
+    border-radius: 5px;
+    border: none;
+    width: 170px;
+    padding-top: 12px;
+    padding-right: 12px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.d-button:hover{
+    opacity: .8;
+}
+.d-button:active, .d-button:focus {
+    outline-color: #D1E8E2;
+    outline-width: thick;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #116466;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #D1E8E2;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FFCB9A;}
+
+#top-button{
+    float: right;
+    margin-top: 12px;
+    width: 100px;
+    font-size: 17px;
+}
